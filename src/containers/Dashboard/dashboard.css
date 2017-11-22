@@ -1,11 +1,12 @@
 .container{
     width:100%;
-    height: 100%; 
+    height: 600px;
 }
 
 .sidenav-container{
     width: 30%;
-    float: left
+    float: left;
+    height: 100%;
 }
 
 .content{
