@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-
+import {Header} from "../../components/Header/header";
 export class Dashboard extends Component{
 
     render(){
         return(
             <div>
                 <header>
-                    <h1>Web App for Traverse My History</h1>
+                    <Header />
                 </header>
             </div>
         );
