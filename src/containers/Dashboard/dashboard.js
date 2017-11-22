@@ -8,13 +8,20 @@ export class Dashboard extends Component{
 
     render(){
         return(
-            <div className='container'>
+            <div className='container-wrapper'>
                 <div className='sidenav-container'>
                     <SideNav />
                 </div>
-                <div className='content'>
-                    <Header />
-                    <Footer />
+                <div className='container'>
+                    <div className='header-container'>
+                        <Header />
+                    </div>
+                    <div className='main-content'>
+
+                    </div>
+                    <div className='footer-container'>
+                        <Footer />
+                    </div>
                 </div>
             </div>
         );
