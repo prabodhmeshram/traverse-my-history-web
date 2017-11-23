@@ -4,7 +4,7 @@ export const Header = () => {
 
     return(
         <div className='header-content'>
-            Header Content
+            Traverse My History
         </div>
     )
 
