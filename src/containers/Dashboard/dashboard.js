@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import {Header} from "../../components/Header/header";
 import {Footer} from "../../components/Footer/footer";
 import {SideNav} from "../../components/SideNav/sidenav";
+import {MainContent} from "../../components/MainContent/mainContent";
 
 import "./dashboard.css";
 export class Dashboard extends Component{
@@ -17,7 +18,7 @@ export class Dashboard extends Component{
                         <Header />
                     </div>
                     <div className='main-content'>
-
+                        <MainContent />
                     </div>
                     <div className='footer-container'>
                         <Footer />
