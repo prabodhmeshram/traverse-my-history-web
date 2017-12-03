@@ -8,7 +8,8 @@ import "./dashboard.css";
 export class Dashboard extends Component{
     state = {
         content : 'Default dashboard',
-        footer: 'Footer Text'
+        footer: 'Footer Text',
+        header: 'Traverse My History'
     }
     render(){
         return(
@@ -18,7 +19,7 @@ export class Dashboard extends Component{
                 </div>
                 <div className='container'>
                     <div className='header-container'>
-                        <Header />
+                        <Header content={this.state.header}/>
                     </div>
                     <div className='main-content'>
                         <MainContent content={this.state.content} />
