@@ -1,10 +1,10 @@
 import React from "react";
 import './footer.css';
-export const Footer = () => {
+export const Footer = (props) => {
 
     return (
         <div className='footer-content'>
-            This is Footer
+            {props.content}
         </div>
     )
 
