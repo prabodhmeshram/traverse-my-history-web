@@ -1,7 +1,7 @@
 import React from "react";
 
-export const MainContent  = () => {
+export const MainContent  = (props) => {
     return(
-        <div> Some Content </div>
+        <div> {props.content} </div>
     )
 }

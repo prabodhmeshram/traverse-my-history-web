@@ -6,7 +6,9 @@ import {MainContent} from "../../components/MainContent/mainContent";
 
 import "./dashboard.css";
 export class Dashboard extends Component{
-
+    state = {
+        content : 'Default dashboard'
+    }
     render(){
         return(
             <div className='container-wrapper'>
@@ -18,7 +20,7 @@ export class Dashboard extends Component{
                         <Header />
                     </div>
                     <div className='main-content'>
-                        <MainContent />
+                        <MainContent content={this.state.content} />
                     </div>
                     <div className='footer-container'>
                         <Footer />
