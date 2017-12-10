@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import {Header} from "../../components/Header/header";
 import {Footer} from "../../components/Footer/footer";
-import {SideNav} from "../../components/SideNav/sidenav";
+import {SideNav} from "../../components/Drawer/drawer";
 import {MainContent} from "../../components/MainContent/mainContent";
 
 import "./dashboard.css";
